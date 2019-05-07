@@ -6,7 +6,7 @@ Device will be connected to internet via Wifi
 
 You will be able to check latest readings on your mobile phone, desktop or any other device with browser
 
-Example logging devices for LoggingForest.com IoT platform
+Example logging devices for LoggingForest.com IoT platform https://loggingforest.com
 
 Basic example to connect PyBoard Device with MicroPython firmware on LoggingForest
 
