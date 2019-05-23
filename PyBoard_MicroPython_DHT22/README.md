@@ -1,6 +1,6 @@
 # loggingforest
 
-With PyBoard device you can log temperature and humidity data outside, in room, greenhouse, lab, cooling room or any other places completely free.
+With Wemos D1 mini ESP8266 device you can log temperature data outside, in room, greenhouse, lab, cooling room or any other places completely free.
 
 Device will be connected to internet via Wifi
 
@@ -14,9 +14,9 @@ You can found complete guide how to make and add device here: https://loggingfor
 
 # Require material:
 
-  - PyBoard Lua V3 CH340G ESP8266 Development Board
+  - Wemos D1 mini ESP8266 Development Board
   - micro USB cable
-  - DHT22 module with cable
+  - DS18b20 module with cable
 
 # If you are familiar with MicroPython, quick guide:
 
