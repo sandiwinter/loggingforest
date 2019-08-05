@@ -151,7 +151,7 @@ void sendDataToServer(float h, float t)
   //ipadr.printTo(tmp_ip);
 
   char strGet[300];
-  sprintf(strGet, "GET /index.php/api?device_key=%s&secret_key=%s&milis=100&temp=%s&hum=%s; HTTP/1.1", device_key, secret_key, tmp_t, tmp_h);  
+  sprintf(strGet, "GET /index.php/api?device_key=%s&secret_key=%s&milis=100&temp=%s&hum=%s HTTP/1.1", device_key, secret_key, tmp_t, tmp_h);  
   //wdt_reset(); 
   if (client.connect(serverName, 80)) { // ovo prijede WDT vrijeme i restarta sve
     //wdt_reset(); 
